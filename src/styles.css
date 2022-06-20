@@ -1,0 +1,26 @@
+body {
+    text-align: center;
+    background: #193549;
+    color: white;
+    font-family: 'helvetica neue', sans-serif;
+    font-weight: 100;
+    font-size: 50px;
+  }
+
+  .controls {
+    margin-bottom: 50px;
+  }
+
+  input {
+    width: 100px;
+  }
+
+  h1 {
+      font-size: 50px;
+  }
+
+  :root {
+      --base: #ae08fb;
+      --blur: 10px;
+      --spacing: 30px;
+  }
