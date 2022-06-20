@@ -1,4 +1,20 @@
-body {
+ :root {
+      --base-color: #ae08fb;
+      --blur: 5px;
+      --spacing: 30px;
+  }
+
+  img {
+      padding: var(--spacing);
+      background: var(--base-color);
+      filter: blur(var(--blur));
+  }
+
+.accent {
+      color: var(--base-color);
+  }
+
+  body {
     text-align: center;
     background: #193549;
     color: white;
@@ -15,12 +31,10 @@ body {
     width: 100px;
   }
 
-  h1 {
+  h2 {
       font-size: 50px;
   }
 
-  :root {
-      --base: #ae08fb;
-      --blur: 10px;
-      --spacing: 30px;
-  }
+ 
+
+ 
